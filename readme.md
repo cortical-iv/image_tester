@@ -1,5 +1,5 @@
 ### What is this?
-Attempt to get image to show using code from Chapter 12 of Principles and practice Chapter 12. Originally, the window is rendering fine, but the image was not opening, so I was getting  "cannot open simple_image.jpg". It turns out I wasn't putting the image in the same directory as the executable because my IDE was building a new folder for the executable and I did not put the image in this directory! So....just be careful of your pathnames and file locations.
+Attempt to get image to show using code from Chapter 12 of Principles and practice Chapter 12. Originally, the window is rendering fine, but the image was not opening, so I was getting  "cannot open simple_image.jpg". It turns out I wasn't putting the image in the same directory as the executable  (my IDE was building a new folder for the executable and I did not put the image in this directory). So....just be careful of your pathnames and file locations for images.
 
 Now it is building fine with cmake, but not make or from the command line (see below).
 
