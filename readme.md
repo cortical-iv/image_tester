@@ -3,7 +3,7 @@ Attempt to get image to show using code from Chapter 12 of Principles and practi
 
 Now it is building fine with cmake, but not make or from the command line (see below).
 
-###Building it
+### Building it
 You can build it a few of ways: currently the first two ways are yielding an error, but `cmake` is working. The first two ways don't
 show the image, but the error:
 
