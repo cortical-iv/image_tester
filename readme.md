@@ -1,7 +1,7 @@
 ### What is this?
 Attempt to get image to show using code from Chapter 12 of Principles and practice Chapter 12. If you get the error "cannot open simple_image.jpg" it probably means your image is not in the same directory as the executable  (I got this when my IDE was building a new folder for the executable and I did not put the image in this directory). So....just be careful of your pathnames and file locations for images.
 
-Now it is building fine with cmake, but not make or from the command line (see below).
+Now it is working fine with cmake, but not make or from the command line (see below).
 
 ### Building it
 You can build it a few of ways: currently the first two ways are yielding an error, but `cmake` is working. The first two ways don't
