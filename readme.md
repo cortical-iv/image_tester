@@ -13,7 +13,7 @@ This has come up before from someone teaching a course on C++ and he wrote:
 > You'll now see the window contents that you expect,
  except for one error (at least when I ran this): You'll get an error
  message
-  JPEG file "image.jpg" is too large or contains errors!
+  *JPEG file "image.jpg" is too large or contains errors!*
  I don't know what to do about that.  Note that if you double-click the
  file image.jpg in the Finder, it gets nicely displayed by Preview.
  I'm not about to attempt tracing this bug, which may be in the JPEG
@@ -22,9 +22,9 @@ This has come up before from someone teaching a course on C++ and he wrote:
 That is from here:
 http://www.dsm.fordham.edu/pipermail/programming-c++/2015-August/000019.html
 
-Nice to see the professor showing so much grit with the code. :) 
+Nice to see the professor showing so much grit to get his code working :) 
 
-The image opens fine from cmake, or when I open it using FLTK's pixmap_browser example (which you can find in  fltk/build/bin/examples). So it isn't a problem with the image. It is probably a problem with the fact that I built FLTK using cmake, and my system doesn't like to build things from the command line now. But I'm frankly not sure, because cmake just builds a makefile after all!
+The image opens fine from cmake, or when I open it using FLTK's pixmap_browser example (which you can find in  fltk/build/bin/examples). So it isn't a problem with the image. The fact that it works when I use cmake, which just makes another `Makefile`, suggests there is some weird and tough to track down bug going on here. Maybe it is important that I generated my FLTK build using cmake. Not sure.
 
 
 ### Build from command line
